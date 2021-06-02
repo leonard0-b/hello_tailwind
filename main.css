@@ -1,0 +1,23 @@
+body {
+    background-color: #dffdff;
+}
+
+h1 {
+    background-color: #68edc6;
+    border-color: #90f3ff;
+    outline: none;
+    transition: transform 150ms;
+    cursor: pointer;
+    z-index: 2;
+}
+
+h1:hover {
+    transform: translate(0, 0.08em);
+    background-color: #9ffff9;
+}
+
+.layer {
+    background-color: #28ba95;
+    z-index: -1;
+    bottom: -6px;
+}
